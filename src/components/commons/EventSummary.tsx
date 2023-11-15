@@ -7,7 +7,7 @@ interface eventProps  {
 
 export const EventSummary = ({name,time}: eventProps) => {
     return(
-        <div className="bg-[#F5F5F5] hover:bg-eventGrad active:bg-eventGrad flex flex-col py-8 px-5 h-auto w-[500px] mx-4 my-6 border border-solid border-black shadow-event">
+        <div className="bg-[#F5F5F5] hover:bg-eventGrad active:bg-eventGrad flex flex-col py-8 px-5 h-auto w-[450px] mx-4 my-6 border border-solid border-black shadow-event">
             <div className="flex items-center ">
                 <img src="/images/icons/clock.svg" alt="clock icon"/>
                 <p className="font-coustard text-base text-[#111826] mx-3">{time}</p>

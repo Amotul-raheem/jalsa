@@ -3,7 +3,7 @@ import React from 'react';
 
 export const Newsletter = () => {
     return (
-        <div className="bg-black py-24 my-20 flex justify-center items-center relative">
+        <div className="bg-black py-32 my-8 flex justify-center items-center relative">
             <img className="absolute bottom-20 left-32" src="/images/Rectangle-left.png" alt=""/>
             <img className="absolute top-20 right-32" src="/images/Rectangle-right.png" alt="" />
 

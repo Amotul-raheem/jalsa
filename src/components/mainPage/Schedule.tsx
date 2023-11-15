@@ -1,5 +1,5 @@
 import React from "react";
-import {EventSummary} from "./EventSummary";
+import {EventSummary} from "../commons/EventSummary";
 
 
 export const Schedule = () => {
