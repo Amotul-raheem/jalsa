@@ -11,7 +11,8 @@ module.exports = {
                 'event': '-7px 7px 0px 0px #000',
             },
             backgroundImage:{
-                "eventGrad":"linear-gradient(180deg, #D1D0FF 0%, rgba(220, 220, 255, 0.00) 100%)"
+                "eventGrad":"linear-gradient(180deg, #D1D0FF 0%, rgba(220, 220, 255, 0.00) 100%)",
+                "authGrad": "linear-gradient(184deg, #9F9EFF -50.98%, rgba(159, 158, 255, 0.00) 80.86%)"
             },
             screens: {
                 'xs': {'min': '240px', 'max': '639px'},

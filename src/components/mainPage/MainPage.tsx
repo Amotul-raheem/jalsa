@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "@mui/material";
-import {NavBar} from "../NavBar";
+import {NavBar} from "../commons/NavBar";
 import {Hero} from "./Hero";
 import {About} from "./About";
 import {Features} from "./Features";
@@ -20,8 +20,8 @@ export const MainPage = () => {
                 <Schedule/>
                 <SpeakersSummary/>
                 <Newsletter/>
-                <Footer/>
             </Container>
+            <Footer/>
         </div>
 
 
